@@ -1,4 +1,4 @@
-package org.example;
+package Core10;
 
 public class UberShop2 {
     public void printPrices(float[] prices) {

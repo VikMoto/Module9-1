@@ -1,4 +1,4 @@
-package org.example;
+package Core10;
 
 import java.util.*;
 

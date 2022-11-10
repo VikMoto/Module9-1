@@ -1,4 +1,4 @@
-package org.example;
+package Core10;
 import java.util.*;
 public class SaveStarShip {
     public int calculateDistance(int distance) {

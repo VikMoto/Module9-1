@@ -1,4 +1,4 @@
-package org.example;
+package Core10;
 
 public class TriangleDrawer {
     public String drawTriangle(int side) {

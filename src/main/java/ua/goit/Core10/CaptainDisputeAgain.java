@@ -1,4 +1,4 @@
-package org.example;
+package Core10;
 
 public class CaptainDisputeAgain {
  /*Напиши клас CaptainDisputeAgain. У цьому класі створи метод public int findMin(int[] triple).
