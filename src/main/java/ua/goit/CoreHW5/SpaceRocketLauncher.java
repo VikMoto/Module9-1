@@ -1,4 +1,4 @@
-package CoreHW5;
+package ua.goit.CoreHW5;
 
 public class SpaceRocketLauncher {
     private int smallRocketCount;

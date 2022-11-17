@@ -1,4 +1,4 @@
-package CoreHW5;
+package ua.goit.CoreHW5;
 /*
 new Copyright().print() виводить у консоль текст "SpaceWarriors Inc."
  */

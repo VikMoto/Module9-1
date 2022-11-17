@@ -1,4 +1,4 @@
-package CoreHW5;
+package ua.goit.CoreHW5;
 
 class AdvancedXFuelEngine extends XFuelEngine{
     public void printInfo() {

@@ -1,4 +1,4 @@
-package Core10;
+package ua.goit.Core10;
 
 public class UberShop2 {
     public void printPrices(float[] prices) {

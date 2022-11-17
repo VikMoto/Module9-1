@@ -1,4 +1,4 @@
-package CoreHW5;
+package ua.goit.CoreHW5;
 
 public class SpaceportMessages {
     public static String generateLandingMessage(String shipName, String spaceport, String time) {

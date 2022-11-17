@@ -1,4 +1,4 @@
-package Core10;
+package ua.goit.Core10;
 
 public class TriangleDrawer {
     public String drawTriangle(int side) {

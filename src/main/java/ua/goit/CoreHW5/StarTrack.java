@@ -1,10 +1,10 @@
-package CoreHW5;
+package ua.goit.CoreHW5;
 
 import java.util.Objects;
 
 class StarTrack {
-    private Point start = new Point();
-    private Point finish = new Point();
+    private Point start;
+    private Point finish;
 
     public Point getStart() {
         return start;

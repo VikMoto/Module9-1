@@ -1,4 +1,4 @@
-package CoreHW5;
+package ua.goit.CoreHW5;
 
 abstract class Passenger {
     public abstract String getType();

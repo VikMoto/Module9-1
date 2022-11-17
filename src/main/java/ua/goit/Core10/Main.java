@@ -1,4 +1,5 @@
-package Core10;
+package ua.goit.Core10;
+import java.util.*;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package CoreHW5;
+package ua.goit.CoreHW5;
 
 public class XFuelEngine extends Engine {
     protected String serialNumber;

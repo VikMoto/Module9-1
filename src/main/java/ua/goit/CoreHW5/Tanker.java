@@ -1,4 +1,4 @@
-package CoreHW5;
+package ua.goit.CoreHW5;
 class Tanker {
     private String serialNumber;
 
