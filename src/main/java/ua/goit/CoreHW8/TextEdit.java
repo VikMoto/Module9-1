@@ -1,11 +1,6 @@
 package ua.goit.CoreHW8;
 
-class Shape implements ShapeInfo,DrawTool,ScaleableDrawable,Borderable{
-    @Override
-    public void name() {
-        System.out.println("Shape.getClass() = " + this.getClass().getSimpleName());
-    }
-
+public class TextEdit implements ScaleableDrawable,Borderable,TextDraw {
     @Override
     public double getBorderWidth() {
         return 0;
@@ -14,51 +9,6 @@ class Shape implements ShapeInfo,DrawTool,ScaleableDrawable,Borderable{
     @Override
     public double getBorderColor() {
         return 0;
-    }
-
-    @Override
-    public void getPencil() {
-
-    }
-
-    @Override
-    public void getBrush() {
-
-    }
-
-    @Override
-    public void getShapeTool() {
-
-    }
-
-    @Override
-    public void getZoomTool() {
-
-    }
-
-    @Override
-    public void getCropTool() {
-
-    }
-
-    @Override
-    public void getArtisticMediaTool() {
-
-    }
-
-    @Override
-    public void getTrancperencyTool() {
-
-    }
-
-    @Override
-    public void getColorEyeDropper() {
-
-    }
-
-    @Override
-    public void FillTool() {
-
     }
 
     @Override
@@ -396,88 +346,3 @@ class Shape implements ShapeInfo,DrawTool,ScaleableDrawable,Borderable{
 
     }
 }
-
-class Circle extends Shape {
-    private final int radius;
-
-    public int getRadius() {
-        System.out.println("radius = " + radius);
-        return radius;
-    }
-    public Circle(int radius) {
-        this.radius = radius;
-    }
-    @Override
-    public void name() {
-        System.out.println("Коло = " + this.getClass().getSimpleName());
-    }
-}
-
-class IsoscelesTriangle extends Shape {
-
-    @Override
-    public void name() {
-        System.out.println("Рівнобедрений трикутник = " + this.getClass().getSimpleName());
-    }
-}
-
-class Rectangle extends Shape {
-
-    @Override
-    public void name() {
-        System.out.println("Прямокутник = " + this.getClass().getSimpleName());
-    }
-}
-
-class Quad extends Shape {
-
-    @Override
-    public void name() {
-        System.out.println("Квадрат = " + this.getClass().getSimpleName());
-    }
-}
-
-class Polygon extends Shape {
-
-    @Override
-    public void name() {
-        System.out.println("Багатокутник = " + this.getClass().getSimpleName());
-    }
-}
-
-
-class NameShape {
-    private Shape shape;
-    public NameShape(Shape shape) {
-        this.shape = shape;
-    }
-
-    public void PrintName() {
-        System.out.println("shape = " + shape.getClass().getSimpleName());
-    }
-
-}
-
-class ShapeTest {
-    public static void main(String[] args) {
-        Shape shape = new Shape();
-        Circle circle = new Circle(5);
-        Shape isoscelesTriangle = new IsoscelesTriangle();
-        Shape rectangle = new Rectangle();
-        Shape quad = new Quad();
-        Shape polygon = new Polygon();
-
-        shape.name();
-        circle.name();
-        circle.getRadius();
-        isoscelesTriangle.name();
-        rectangle.name();
-        quad.name();
-        polygon.name();
-
-        new NameShape(circle).PrintName();
-        new NameShape(isoscelesTriangle).PrintName();
-        new NameShape(polygon).PrintName();
-    }
-}
-
